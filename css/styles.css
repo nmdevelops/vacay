@@ -1,4 +1,4 @@
-.cycleTour, .motoTour, .stayCation {
+.cycleCation, .motoCation, .stayCation, .lameCation {
   display: none;
 }
 
@@ -41,7 +41,7 @@ body, html {
   opacity: 0.65;
 }
 
-.bg-image-3 {
+.bg-image-cycleCation {
   background-color: #efefef;
   background-image: url(../img/bezier_pont_neuf.jpg);
   background-position: center;
@@ -50,6 +50,32 @@ body, html {
   opacity: 0.65;
 }
 
+.bg-image-lameCation {
+  background-color: #efefef;
+  background-image: url(../img/elderly.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.65;
+  }
+
+.bg-image-motoCation {
+  background-color: #efefef;
+  background-image: url(../img/moto_laos.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.65;
+  }
+
+  .bg-image-stayCation {
+    background-color: #efefef;
+    background-image: url(../img/staycation.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.65;
+    }
 
 .titleText {
   position: absolute;

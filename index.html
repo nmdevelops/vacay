@@ -20,14 +20,9 @@
       <br>
       <button id="rightButton" type="button" class="button-cool">FIND YOUR PEARL</button>
     </div>
-
-
     <div class="interview">
       <h1>Wander Where Quiz</h1>
       <form>
-
-
-
         <div class="row">
           <div class="col-md-4">
             <div class="form-group">
@@ -51,17 +46,17 @@
             </div>
           </div>
           <div class="col-md-4">
-            <label for="question2">What is your transportation budget? (Round Trip)</label>
+            <label for="question3">What is your transportation budget? (Round Trip)</label>
             <div class="form-group">
-              <select class="form-control">
+              <select id="transportBudget" class="form-control">
                 <option value="0">Make a selection</option>
-                <option value="15">Economy - Local - $15 per day</option>
-                <option value="25">Economy - Regional - $25 per day</option>
-                <option value="35">Economy - National - $35 per day</option>
-                <option value="100">Economy - Intercontinental - $100 per day</option>
-                <option value="200">Tourist - Intermediate - $150 per day</option>
-                <option value="250">Tourist - Luxury - $250 per day</option>
-                <option value="500">Have too much money - $500 per day</option>
+                <option value="50">Frugal</option>
+                <option value="150">Frugal with Options</option>
+                <option value="300">Frugal Plus</option>
+                <option value="800">Economy - Committed</option>
+                <option value="1000">Tourist - Happy</option>
+                <option value="1200">Tourist - Luxury</option>
+                <option value="2200">Basically you are a baller</option>
               </select>
             </div>
           </div>
@@ -69,13 +64,13 @@
 
         <div class="row">
           <div class="col-md-4">
-            <label for="question1">How long do you want your trip to take?</label>
+            <label for="question4">How long do you want your trip to take?</label>
             <div class="form-group">
-              <select class="form-control">
+              <select id="travelTime" class="form-control">
                   <option value="0">Make a selection</option>
                   <option value="2">A weekend</option>
                   <option value="3">A long weekend</option>
-                  <option value="7">A week</option>
+                  <option value="10">A long week</option>
                   <option value="30">A month</option>
                 </select>
             </div>
@@ -108,73 +103,81 @@
 
         <div class="row">
           <div class="col-md-4">
-            <label for="question1">What's your ideal travel mode?</label>
+            <label for="travelMode">What's your ideal travel mode?</label>
             <div class="radio">
-              <label><input type="radio" name="question1" value="value1">Feet</label>
+              <label><input type="radio" name="travelMode" value="feet">Feet</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="question1" value="value2">Feet & Bicycle</label>
+              <label><input type="radio" name="travelMode" value="bike">Bike</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="question1" value="value3">Motor Bike</label>
+              <label><input type="radio" name="travelMode" value="motorBike">Motor Bike</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="question1" value="value3">Car</label>
+              <label><input type="radio" name="travelMode" value="plane">Plane</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="question1" value="value3">Plane</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="question1" value="value3">Cruise Ship</label>
+              <label><input type="radio" name="travelMode" value="cruiseShip">Cruise Ship</label>
             </div>
 
           </div>
           <div class="col-md-4">
-            <label for="question1">How dicey an adventure are you up for?</label>
+            <label for="riskRating">How dicey an adventure are you up for?</label>
             <div class="radio">
-              <label><input type="radio" name="question1" value="value1">Show up with what you have and see what happens.</label>
+              <label><input type="radio" name="riskRating" value="rollWithIt">Show up with what you have and see what happens.</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="question1" value="value2">Plan essentials and wing the rest.</label>
+              <label><input type="radio" name="riskRating" value="prepareAndRoll">Plan essentials and wing the rest.</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="question1" value="value3">Detailed itinerary for all activities.</label>
+              <label><input type="radio" name="riskRating" value="lessFun">Detailed itinerary for all activities.</label>
             </div>
           </div>
           <div class="col-md-4">
-            <label for="question1">How light a sleeper are you??</label>
+            <label for="sleepQuality">How light a sleeper are you?</label>
             <div class="radio">
-              <label><input type="radio" name="question1" value="value1">Jackhammers at night disturb my sleep.</label>
+              <label><input type="radio" name="sleepQuality" value="noise">Jackhammers at night disturb my sleep.</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="question1" value="value2">Lights at night disturb my sleep.</label>
+              <label><input type="radio" name="sleepQuality" value="light">Lights at night disturb my sleep.</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="question1" value="value3">Bugs eating me alive at night disturb my sleep.</label>
+              <label><input type="radio" name="sleepQuality" value="locust">Bugs eating me alive at night disturb my sleep.</label>
             </div>
           </div>
         </div>
         <button id="leftButton" type="submit" class="button-cool">Go!</button>
       </form>
     </div>
-
-    <div class="cycleTour">
-      <p>Go on a cycling tour of southern France!</p>
-    </div>
-
-    <div class="motoTour">
-      <p>Motor bike through southeast asia!</p>
-    </div>
-
     <div class="stayCation">
-      <p>Go exploring Oregon's backyard!</p>
+      <p><span class="textBorder">BASED ON YOUR RESPONSES... </span>
+      <br>
+      <br>
+      <br>
+      <p><span class="textBorder">GO EXPLORING YOUR OWN BACKYARD!</span></p>
+      <p><span class="textBorder">YOU HAVE ENOUGH TIME TO<span class="enoughTime"></span></span></p>
     </div>
-
-
-
-
+    <div class="cycleCation">
+      <p><span class="textBorder">BASED ON YOUR RESPONSES... </span>
+      <br>
+      <br>
+      <br>
+      <p><span class="textBorder">GO ON A CYCLING TOUR!</span></p>
+      <p><span class="textBorder">YOU HAVE ENOUGH TIME TO<span class="enoughTime"></span></span></p>
+    </div>
+    <div class="motoCation">
+      <p><span class="textBorder">BASED ON YOUR RESPONSES... </span>
+      <br>
+      <br>
+      <br><span class="textBorder">YOU SHOULD MOTORBIKE THROUGH SE ASIA!</span></p>
+    </div>
+    <div class="lameCation">
+      <p><span class="textBorder">THIS ISN'T THE SITE YOU ARE LOOKING FOR.</span>
+      <br>
+      <br>
+      <span class="textBorder">PLEASE GO HERE<a href="http://aarp.com">TO FIND SOMETHING MORE YOUR SPEED.</a></span>
+      </p>
+    </div>
   </div>
-  <!-- Container -->
 </body>
-
 </html>

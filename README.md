@@ -1,37 +1,36 @@
-# _{Application Name}_
+# _Wander Where_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A webpage that takes user input and makes a vacation suggestion, 6/10/2017_
 
-#### By _**{List of contributors}**_
+#### By _**Nathan Mayer**_
+####
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_It uses js and css to flow the user through a survey and then makes suggestions.  At the moment it is limited to utilizing a few inputs._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _A computer_
+* _An internet connection_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+
+_Open it in your browser_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_Several of the inputs are not yet pointed to functions or, hopefully in the future API's and such_
 
 ## Support and contact details
 
-_Please email {support} if you run into any issues or have questions, ideas or concerns.  We encourage you to contact us with suggestions or contributions to the code._
+_Please email nm.develops@gmail.com if you run into any issues or have questions, ideas or concerns.  We encourage you to contact us with suggestions or contributions to the code._
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_This site relies on Bootstrap and Jquery-3.2.1_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*This site uses the MIT License*
 
-Copyright (c) 2017 **_{List of contributors or company name}_**
+Copyright (c) 2017 **_Nathan Mayer_**
