@@ -19,7 +19,7 @@ _Open it in your browser_
 
 ## Known Bugs
 
-_Several of the inputs are not yet pointed to functions or, hopefully in the future API's and such_
+_Specifically, the .enoughtime spans are not adding text to the DOM.  Several of the inputs are not yet pointed to functions or, hopefully in the future API's and such_
 
 ## Support and contact details
 
