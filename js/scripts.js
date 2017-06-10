@@ -18,7 +18,8 @@ $(document).ready(function() {
     $("body").removeClass();
     $("body").addClass("bg-image-2");
     $(".titleText").hide();
-    $(".interview").show();
+    //$(".interview").fadeIn(2400);
+    $(".interview").fadeIn(2400);
   });
 
   $(".interview form").submit(function(event) {
