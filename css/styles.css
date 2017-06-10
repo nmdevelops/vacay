@@ -1,3 +1,60 @@
 .cycleTour, .motoTour, .stayCation {
   display: none;
 }
+
+.questions {
+  display: none;
+}
+
+body, html {
+  height: 100%;
+  margin: 0px;
+}
+
+.bg-image {
+  background-color: #efefef;
+  background-image: url(../img/pic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.titleText {
+  position: absolute;
+  left: 0px;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #efefef;
+}
+
+#titleButton {
+    position: relative;
+    left: 40%;
+    right: 40%;
+    width: 15%;
+    color: #efefef;
+}
+.textBorder {
+  background-color: #111;
+  color: #fff;
+  padding: 15px;
+  font-size: 26px;
+  letter-spacing: 10px;
+}
+
+.form-group {
+  background-color: #111;
+}
+
+.button-cool {
+  background-color: #111;
+  border-style: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline-style: none;
+  font-size: 26px;
+  letter-spacing: 8px;
+  text-align: center;
+}
