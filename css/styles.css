@@ -2,12 +2,24 @@
   display: none;
 }
 
-.questions {
+h1  {
+  text-align: center;
+}
+
+.interview {
   display: none;
+  width: 80%;
+  background-color: #111;
+  position: absolute;
+  padding: 20px;
+  margin-top: 20px;
+  color: #efefef;
+  margin-bottom: 20px;
 }
 
 body, html {
   height: 100%;
+  padding: 20px;
   margin: 0px;
 }
 
@@ -20,6 +32,25 @@ body, html {
   opacity: 0.9;
 }
 
+.bg-image-2 {
+  background-color: #efefef;
+  background-image: url(../img/sacre_coure.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.65;
+}
+
+.bg-image-3 {
+  background-color: #efefef;
+  background-image: url(../img/bezier_pont_neuf.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.65;
+}
+
+
 .titleText {
   position: absolute;
   left: 0px;
@@ -29,13 +60,22 @@ body, html {
   color: #efefef;
 }
 
-#titleButton {
-    position: relative;
-    left: 40%;
-    right: 40%;
+#rightButton {
+    position: absolute;
+    right: 0px;
     width: 15%;
     color: #efefef;
 }
+
+#leftButton {
+    position: absolute;
+    left: 0px;
+    width: 15%;
+    color: #efefef;
+    padding-left: 20px;
+    background-color: grey;
+}
+
 .textBorder {
   background-color: #111;
   color: #fff;
@@ -44,13 +84,10 @@ body, html {
   letter-spacing: 10px;
 }
 
-.form-group {
-  background-color: #111;
-}
-
 .button-cool {
   background-color: #111;
-  border-style: none;
+  border-style: solid;
+  border-color: Transparent;
   cursor:pointer;
   overflow: hidden;
   outline-style: none;
